@@ -1,0 +1,133 @@
+body {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    background: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    padding: 0;
+    margin: 0;
+}
+
+p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 1em;
+    border-radius: 20px;
+    background:hsl(216, 50%, 16%);
+    padding: 1.8em;
+    box-shadow:hsl(215, 51%, 70%) 1px 1px 3px;
+}
+
+.card-img {
+    border-radius: 10px;
+}
+
+.container:hover {
+    background: rgba(19, 52, 80, 0.918);
+    cursor: pointer;
+    
+}
+
+h1 {
+    font-size: 1.4em;
+    font-weight: lighter;
+}
+
+p {
+    line-height: 1.5em;
+    font-weight: lighter;
+}
+
+.spans {
+    margin-top: 1em;
+}
+
+.eth-icon {
+    width: .65em; 
+}
+
+.clock-icon {
+    width: 1em;
+}
+
+p, .days, .ord-txt {
+    color:rgba(184, 189, 212, 0.774);
+    font-weight: light;
+}
+
+.days {
+    float: right;
+    
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
+
+hr {
+    margin: 1.4em 0;
+    border: .1px hsl(215, 32%, 27%) solid;
+}
+
+.creator-img {
+    border-radius: 50%;
+    border: solid white 2px;
+    width: 2.9em;
+    height: 2.9em;
+    display: block;
+    float: left;
+    clear: both;
+    margin-top: -.5em;
+}
+
+.creator-name {
+    color: wheat;
+}
+
+/* ul {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-left: 0;
+}
+
+li {
+    list-style: none;
+} */
+
+
+.footer-text img {
+   margin-right: 1.3em;
+}
+
+.footer-text {
+    margin-bottom: 1em;
+}
+
+.ord-txt {
+    margin-top: 1em;
+}
+
+/* .footer-text {
+    text-align: right;
+    margin-top: -3em;
+    margin-left: -3em;
+}
+
+.footer {
+    margin-bottom: 2em;
+} */
+
+
+@media only screen and (min-width: 700px) {
+    .container {
+        width: 20%;
+        margin: 1em auto;
+    }
+
+    .card-img {
+        height: 15em;
+    }
+}
